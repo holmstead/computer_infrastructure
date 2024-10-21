@@ -1,0 +1,22 @@
+name: Weather Data
+
+on:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+    branches: [ $default-branch ]
+  schedule:
+    - cron: '0 10 * * *'  # Runs at 10am every day (UTC time)
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the repository to the runner
+        uses: actions/checkout@v4
+
+      - name: Execute weather.sh script
+        run: weather.sh
+
+
