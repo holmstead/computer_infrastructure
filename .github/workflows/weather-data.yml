@@ -22,3 +22,13 @@ jobs:
       - name: Execute weather.sh script
         run: ./data/weather.sh
 
+      - name: Commit and push changes
+        run: |
+          git config --local user.name "holmstead"
+          git config --local user.email "holmstead@protonmail.com"
+          git add .  # Add all changes to staging
+          git commit -m "Update weather data"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # use GitHub token for authentication (it automatic, dont need to change)
+
