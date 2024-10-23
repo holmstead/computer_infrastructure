@@ -11,6 +11,9 @@ on:
     - cron: '0 10 * * *'  # Runs at 10am every day (UTC time)
   workflow_dispatch:  # Allow manual triggering of the workflow
 
+permissions:
+  contents: write  # Grants the workflow permission to push changes
+
 jobs:
   build:
     runs-on: ubuntu-latest
