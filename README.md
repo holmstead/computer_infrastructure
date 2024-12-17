@@ -1,15 +1,14 @@
 # Computer Infrastructure
 
-Computer Infrastructure - [ATU](https://www.atu.ie) 2024
-
 ![Matrix inspired computer infrastructure.](img/computer_infrastructure2.png)
 
 Image generated using [DALL.E 3](https://openai.com/index/dall-e-3/) by OpenAI.
 
+This repository contains submissions for the Computer Infrastructure module at Atlantic Technologic University (ATU) 2024. 
 
 ## Quickstart
 
-There is a notebook associated with this repository which can be opened using the link below: 
+There is a [Jupyter notebook](https://jupyter.org/) associated with this repository which can be opened using the link below: 
 
 <a target="_blank" href="https://colab.research.google.com/github/holmstead/computer_infrastructure/blob/main/weather.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
@@ -19,50 +18,44 @@ Link generated using [Openincolab](https://openincolab.com/)
 
 ## About
 
-This reposotory contains a study of computer infrastructure. Several concepts are explored in the command lne interface including directory navigation, scripting, manipulating data. Tools such as Github Actions/ Workflows are explored to automate computatikonal tasks.
+This repository contains a study of computer infrastructure. 
+
+Several concepts are explored in the command line interface including directory navigation, manipulating files/directories, and scripting. Tools such as Github Actions/ Workflows are explored to automate computational tasks.
 
 
 
 
-## Repo Contents
+## Contents
 
-1. weather.ipynb
+### Files
 
-This Jupyter notebook provides a summary of Tasks 1-7 and how they were achieved, as well as a brief analysis of the data contained in the weather.json file.
+- **weather.ipynb** - This Jupyter notebook provides a summary of Tasks 1-7 and how they were achieved, as well as a brief analysis of the data contained in the weather.json file.
 
-2. weather.sh 
+- **weather.sh** - A bash script to fetch weather data. The filename is configured as the date/time it was retrieved.
 
-A bash script to fetch weather data. The filename is configured as the dat/time it was sretrieved.
+- **.gitignore** Tells git what files to ignore.
 
-3. data/ directory
+### Directories
 
-Contains the weather data files.
+- `.github/workflow/` Contains a yml file with instructions for github action.
 
-4. .github/workflow/ directory
+- `data/` Contains the weather data files, and some timestamped txt files. 
 
-Contains a yml file with instructions for github action 
-
-5. img/ directory
-
-A plcae to store images used in the notebook.
-
-5. .gitignore
-
-Tells git what files to ignore.
+- `img/` Contains images used in the notebook/README.
 
 
 ## Get Started
 
+### Requirements
 
-The notebook can be opened in Google CoLab using the link in Quickstart section, or you can follow these instructions to install everything on your local machine.
+To run contents of this repository, ensure you have the following installed:
 
-The Python interperter can be downloaded [here](https://www.python.org/downloads/). 
+1. **Python**: Version 3.7 or higher. You can download it from [python.org](https://www.python.org/downloads/).
 
-Install the required libraries using the following command:
-
-```
-python pip install matplotlib pandas seaborn notebook
-```
+2. **Dependencies**: Install the required Python packages by running:
+  ```bash
+  $ python pip install matplotlib pandas seaborn notebook
+   ```
 
 Clone the repository:
 
@@ -87,16 +80,19 @@ Python libraries Matplotlib, Pandas, and Seaborn all have comprehensive user gui
 - https://seaborn.pydata.org/tutorial.html
 
 
-Jupyter Notebooks help can be found here:
+Juypter Notebooks and VSCode help can be found using the links below:
 
 - https://jupyter.brynmawr.edu/services/public/dblank/Jupyter%20Notebook%20Users%20Manual.ipynb
 
-
-## References
-
+- https://code.visualstudio.com/docs/introvideos/basics
 
 ## Author
 
 M. Holmes, 2024
 
 holmstead@protonmail.com
+
+## References
+Banner image generated using [DALL.E 3](https://openai.com/index/dall-e-3/) by OpenAI.
+
+Code debugging and refactoring was done with the aid of a locally-installed open-source Large Language Model (LLM) [Ollama](https://github.com/ollama/ollama), specifically the Code LLama model.
