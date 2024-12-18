@@ -1,14 +1,12 @@
 # Computer Infrastructure
 
-![Matrix inspired computer infrastructure.](img/computer_infrastructure2.png)
-
-Image generated using [DALL.E 3](https://openai.com/index/dall-e-3/) by OpenAI.
+![Matrix inspired computer infrastructure.](img/computer_infrastructure.png)
 
 This repository contains submissions for the Computer Infrastructure module at Atlantic Technologic University (ATU) 2024. 
 
 ## Quickstart
 
-There is a [Jupyter notebook](https://jupyter.org/) associated with this repository which can be opened using the link below: 
+There is a [Jupyter notebook](https://jupyter.org/) associated with this repository which can be opened in [Google CoLab](https://colab.research.google.com/) using the link below: 
 
 <a target="_blank" href="https://colab.research.google.com/github/holmstead/computer_infrastructure/blob/main/weather.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
@@ -18,12 +16,7 @@ Link generated using [Openincolab](https://openincolab.com/)
 
 ## About
 
-This repository contains a study of computer infrastructure. 
-
-Several concepts are explored in the command line interface including directory navigation, manipulating files/directories, and scripting. Tools such as Github Actions/ Workflows are explored to automate computational tasks.
-
-
-
+Several concepts are explored using the command line interface (CLI). Topics include CLI fundamentals - directory navigation, manipulating files/directories etc., scripting to automate computational tasks. Tools such as Github Actions and Workflows are explored to automate computational tasks.
 
 ## Contents
 
