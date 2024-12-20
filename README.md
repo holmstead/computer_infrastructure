@@ -34,6 +34,8 @@ The repository includes submissions for the module [assessments](https://github.
 
 - **.gitignore** Tells git what files to ignore.
 
+- **requirements.txt** A list of required Python packages. 
+
 ### Directories
 
 - `.github/workflow/` Contains a yml file with instructions for Github Actions.
