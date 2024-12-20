@@ -16,51 +16,65 @@ Link generated using [Openincolab](https://openincolab.com/)
 
 ## About
 
-Several concepts are explored using the command line interface (CLI). Topics include CLI fundamentals - directory navigation, manipulating files/directories etc., scripting to automate computational tasks. Tools such as Github Actions and Workflows are explored to automate computational tasks.
+This repository explores several computer infrastructure concepts using the command-line interface (CLI) and various tools. Topics include:
+
+ - **CLI Fundamentals:** Directory navigation, file/directory manipulation, and scripting to automate computational tasks.
+
+ - **Automation:** Leveraging tools such as GitHub Actions and Workflows to streamline computational processes.
+
+The repository includes submissions for the module [assessments](https://github.com/ianmcloughlin/2425_computer_infrastructure?tab=readme-ov-file).
 
 ## Contents
 
 ### Files
 
-- **weather.ipynb** - This Jupyter notebook provides a summary of Tasks 1-7 and how they were achieved, as well as a brief analysis of the data contained in the weather.json file.
+- **weather.sh** - A bash script to fetch weather data.
 
-- **weather.sh** - A bash script to fetch weather data. The filename is configured as the date/time it was retrieved.
+- **weather.ipynb** - A Jupyter notebook that details tasks from the module, along with weather data analysis.
 
 - **.gitignore** Tells git what files to ignore.
 
 ### Directories
 
-- `.github/workflow/` Contains a yml file with instructions for github action.
+- `.github/workflow/` Contains a yml file with instructions for Github Actions.
 
-- `data/` Contains the weather data files, and some timestamped txt files. 
+- `data/` Contains the weather data files downloaded using Github Actions, as well as some timestamped txt files. 
 
 - `img/` Contains images used in the notebook/README.
 
-
 ## Get Started
+
+Clone the repository:
+
+```
+$ git clone https://github.com/holmstead/computer_infrastructure.git
+```
 
 ### Requirements
 
-To run contents of this repository, ensure you have the following installed:
+To run the Jupyter notebook, ensure you have the following installed:
 
 1. **Python**: Version 3.7 or higher. You can download it from [python.org](https://www.python.org/downloads/).
 
 2. **Dependencies**: Install the required Python packages by running:
   ```bash
-  $ python pip install matplotlib pandas seaborn notebook
+  $ python pip install -r requirements.txt
    ```
 
-Clone the repository:
+3. **Jupyter**: Web application to run .ipynb files (notebooks). You can install it using the following command:
 
 ```
-git clone https://github.com/holmstead/computer_infrastructure.git
+$ pip install notebook
 ```
 
-Once everything is installed and the repository cloned, you can run the notebook by opening the command line and typing the following command:
+Once everything is installed and the repository cloned, you can open the notebook using the following command:
 
 ```
-jupyter-notebook weather.ipynb
+$ jupyter notebook weather.ipynb
 ```
+
+Alternatively, notebooks can also be opened using [VSCode](https://code.visualstudio.com/), a free integrated development environment, or by using the Google CoLab link in the Quickstart section.
+
 
 ## Get Help
 
@@ -72,8 +86,7 @@ Python libraries Matplotlib, Pandas, and Seaborn all have comprehensive user gui
 
 - https://seaborn.pydata.org/tutorial.html
 
-
-Juypter Notebooks and VSCode help can be found using the links below:
+Juypter and VSCode help can be found using the links below:
 
 - https://jupyter.brynmawr.edu/services/public/dblank/Jupyter%20Notebook%20Users%20Manual.ipynb
 
@@ -86,6 +99,7 @@ M. Holmes, 2024
 holmstead@protonmail.com
 
 ## References
+
 Banner image generated using [DALL.E 3](https://openai.com/index/dall-e-3/) by OpenAI.
 
 Code debugging and refactoring was done with the aid of a locally-installed open-source Large Language Model (LLM) [Ollama](https://github.com/ollama/ollama), specifically the Code LLama model.
