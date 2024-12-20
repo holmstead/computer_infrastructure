@@ -75,7 +75,7 @@ Once everything is installed and the repository cloned, you can open the noteboo
 $ jupyter notebook weather.ipynb
 ```
 
-Alternatively, notebooks can also be opened using [VSCode](https://code.visualstudio.com/), a free integrated development environment, or by using the Google CoLab link in the Quickstart section.
+Alternatively, notebooks can also be opened using [VSCode](https://code.visualstudio.com/), a free integrated development environment, or by using the Google CoLab link in the [Quickstart](#quickstart) section.
 
 
 ## Get Help
