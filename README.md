@@ -105,3 +105,5 @@ holmstead@protonmail.com
 Banner image generated using [DALL.E 3](https://openai.com/index/dall-e-3/) by OpenAI.
 
 Code debugging and refactoring was done with the aid of a locally-installed open-source Large Language Model (LLM) [Ollama](https://github.com/ollama/ollama), specifically the Code LLama model.
+
+Github Actions yml was built using a template found [here](https://github.com/rangle/gitub-action-template-example), and following a tutorial found [here](https://www.geeksforgeeks.org/github-actions/).
